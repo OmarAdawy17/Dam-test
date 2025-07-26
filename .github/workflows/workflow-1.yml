@@ -18,7 +18,9 @@ jobs:
 
     readme:
         runs-on: ubuntu-latest
-        steps:
+        steps: 
+            - name: checkout 
+              uses: actions/checkout@v4
             - name: show read me
               run: |
                 ls -ltrah
