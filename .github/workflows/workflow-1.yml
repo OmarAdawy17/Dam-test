@@ -25,5 +25,5 @@ jobs:
               run: |
                 ls -ltrah
                 cat README.md
-                chmod +x script.sh
+                chmod +x /home/adawy/Dam-test/Dam-test/.github/script.sh
                 /home/adawy/Dam-test/Dam-test/.github/script.sh
