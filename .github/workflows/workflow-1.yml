@@ -25,5 +25,5 @@ jobs:
               run: |
                 ls -ltrah
                 cat README.md
-                chmod +x /home/adawy/Dam-test/Dam-test/.github/workflows/script.sh
-                /home/adawy/Dam-test/Dam-test/.github/workflows/script.sh
+                chmod +x .github/workflows/script.sh
+                sh .github/workflows/script.sh
